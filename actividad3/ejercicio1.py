@@ -5,7 +5,7 @@ calificacion3 = int(input("Ingrese la calificación 3: "))
 suma = calificacion1 + calificacion2 + calificacion3
 promedio= suma / 3
 
-print(f"Calificación1: {calificacion1}")
-print(f"Calificación2: {calificacion2}")
-print(f"Calificación3: {calificacion3}")
-print(f"Promedio: {promedio}")
+print(f"""Calificación 1: {calificacion1:>3}
+Calificación 2: {calificacion2:>3}
+Calificación 3: {calificacion3:>3}
+{"Promedio:":<15} {promedio:>3.0f}""")
